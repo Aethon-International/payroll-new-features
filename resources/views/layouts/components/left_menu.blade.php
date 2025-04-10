@@ -50,7 +50,13 @@
       </a>
     </li>
 
-    
+  
+    <li class="menu-item {{ request()->is('admin/salary-dashboards*') ? ' active' : '' }}">
+      <a href="{{ route('admin.dashboard') }}" class="menu-link">
+        <i class="menu-icon tf-icons ti ti-file-invoice"></i>
+        <div data-i18n="Salary Slips">Dashoboard</div>
+      </a>
+    </li>
     @endrole
 
     @role('employee')

@@ -16,6 +16,10 @@ class SalarySlipController extends Controller
         return view('salaryslips.index', compact('salaryslips', 'adjustmentTypes'));
     }
 
+    public function dashboard(){
+     return view('salaryslips.dashboard');
+    }
+
     public function create()
     {
         $adjustmenttypes = AdjustmentType::all();

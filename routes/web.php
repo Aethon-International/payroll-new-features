@@ -89,3 +89,5 @@ Route::middleware(['auth', 'useractive'])->group(function () {
 
 
  /// Ading dashobard content 
+
+ //Route::get('salary-dashboard', [SalarySlipController::class, 'dashboard'])->name('admin.salary-dashboard.dashboard');
