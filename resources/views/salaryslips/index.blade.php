@@ -26,6 +26,7 @@
               <th>Days Off Amount</th>
               <th>Bonus</th>
               <th>Net Amount</th>
+              <th>Date/Time</th>
               @role('admin')
               <th>Action</th>
               @endrole
@@ -59,6 +60,9 @@
                 </td>
                 <td>
                   <span class="fw-medium">{{ $salaryslip->net_salary }}</span>
+                </td>
+                <td>
+                  <span class="fw-medium">{{ $salaryslip->created_at }}</span>
                 </td>
                 @role('admin')
                 <td>

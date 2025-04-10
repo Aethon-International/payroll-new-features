@@ -86,3 +86,6 @@ Route::middleware(['auth', 'useractive'])->group(function () {
  Route::get('generate-pdf/{salary_slip_id}', [PdfController::class, 'generatePdf'])->name('generate-pdf');
  require __DIR__.'/auth.php';
 
+
+
+ /// Ading dashobard content 

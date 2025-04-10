@@ -49,6 +49,8 @@
         <div data-i18n="Salary Slips">Salary Slips</div>
       </a>
     </li>
+
+    
     @endrole
 
     @role('employee')
